@@ -1,0 +1,43 @@
+.system_message
+  {
+    color: #ff0000;
+    font-family: Verdana, sans;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+.system_group
+  {
+    color: #D225FE;
+    font-family: Verdana, sans;
+    font-size: 10px;
+  }
+  
+.system_warning
+  {
+    color: #ff0000;
+    font-family: Verdana, sans;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+.operator_username
+  {
+    color: #00ff00;
+    font-family: Verdana, sans;
+    font-size: 10px;
+  } 
+
+.username
+  {
+    color: #0000ff;
+    font-family: Verdana, sans;
+    font-size: 10px;
+  }   
+  
+.user_sex
+  {
+    color: #FF80FF;
+    font-family: Verdana, sans;
+    font-size: 10px;
+  }

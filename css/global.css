@@ -1,0 +1,263 @@
+HTML
+  {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  
+BODY 
+  {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+		font-size: 12px;
+		color: #000000;
+  }
+
+	  
+LEGEND
+  {
+		font-size: 12px;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+    padding: 0px;
+    color: #0000A0;
+  }
+  
+FIELDSET
+  {
+    margin-bottom: 2px;
+    padding: 2px;
+		font-size: 12px;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+    color: #000000;
+    border: 1px #c0c0c0 solid;
+  }
+  
+LABEL 
+  {
+    float: left;
+    width: 120px;
+    font-weight: bold;
+    text-align: right;
+		font-size: 12px;
+    padding-top: 3px;
+  }  
+  	
+SELECT
+  {
+    height: 20px;
+    width: 200px;
+    color: #000000;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+  }
+  
+
+
+/*
+ * Forms and Fields
+ */
+
+.submit_field
+  {
+    border: 1px #C0C0C0 solid;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: #000000;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+  }  
+	  
+.submit_checkbox
+  {
+    border: 1px #C0C0C0 solid;
+    height: 20px;
+    color: #000000;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+  } 
+	  
+.submit_radio	  
+  {
+    float: left;
+    height: 20px;
+    color: #000000;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: text-top;
+  } 
+  
+.text_area
+  {
+    border: 1px #C0C0C0 solid;
+    height:100px;
+    width: 260px;
+    color: #000000;
+    font-family: Georgia, Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 4px;
+  }  
+
+ 
+/*
+ * 
+ * LAYOUT
+ *
+ */
+ 
+/*
+ * without corners
+ */
+.structure_main_square
+  {
+    background: #ffffff;
+    background-repeat: repeat-y;
+    z-index: 1;
+    /*background-color:#d6f6ff;*/
+  }
+  
+.nborder_square
+  {
+    background-image: url(../images/structure/north_border.png);
+    background-repeat: repeat-x;
+  }  
+  
+.eborder_square
+  {
+    background-repeat: repeat-y;
+    background-position: top right;
+  }
+  
+.south_square
+  {
+    background-image: url(../images/structure/south_border.png);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    height: 48px;
+		margin: 0px; 
+		padding: 0px;
+		text-align: center;
+  }
+ 
+/*
+ * with corners
+ */
+.structure_main
+  {
+    background: #ffffff;
+    background-image: url(../images/structure/west_border.png);
+    background-repeat: repeat-y;
+    z-index:1;
+    /*background-color:#d6f6ff;*/
+  }
+  
+.nborder
+  {
+    background-image: url(../images/structure/north_border.png);
+    background-repeat: repeat-x;
+  }  
+  
+.eborder
+  {
+    background-image: url(../images/structure/east_border.png);
+    background-repeat: repeat-y;
+    background-position: top right;
+  }
+  
+.south
+  {
+    background-image: url(../images/structure/south_border.png);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    height: 48px;
+		margin: 0px; 
+		padding: 0px;
+		text-align: center;
+  }
+
+.north 
+  {
+		margin: 0px; 
+		padding: 0px;
+		height: 36px;
+		width: auto;
+  }
+
+.labels_panel_header
+  {
+    font-family:georgia;
+    font-size:200%;
+    letter-spacing:-0.03em;
+    line-height:1;
+    margin:0pt 0pt 0.2em;
+    outline-color:invert;
+    outline-style:none;
+    outline-width:0pt;
+    padding:0pt;
+    vertical-align:baseline;
+    font-size:18px;
+    text-align:right;
+  }
+
+.west 
+  {
+		float:left;
+		width:200px;
+		margin:0px; 
+		padding:0px;
+	}
+
+.east 
+  {
+		float: right;
+		width: 200px;
+		margin: 0px; 
+		padding: 0px;
+	}
+
+.central 
+  {
+    margin: 0px;
+		margin-right: 200px;
+		width: auto;
+	}
+
+.column-in 
+  {
+		margin:0px; 
+		padding:0.4em;
+		overflow: hidden;
+	}
+
+.cleaner 
+  { 
+		clear:both;
+		height:1px;
+		border:none;
+		margin:0px; 
+		padding:0px;
+		background:transparent;
+	}
+
