@@ -438,7 +438,7 @@ function ViewClass()
         /*
          * user list; re-split on ':'; last index == list
          *
-         * :escomchat1.webair.com 353 sandro = #lobby :sandro nataxia 
+         * :chat.url.com 353 sandro = #lobby :sandro username 
          */
         var _n = d.split(':');
         var _l = _n[_n.length-1].split(' ');
